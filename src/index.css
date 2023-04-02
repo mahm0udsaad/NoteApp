@@ -1,0 +1,35 @@
+.note{
+    width: 150px;
+    height: 150px;
+    background-color: black;
+    cursor: pointer;
+}
+.textarea{
+    height: 100% !important;
+    outline: none !important;
+    border: none !important;
+}
+.title{
+    text-align: center;
+}
+.container{
+    width: 80%;
+    margin:auto 10%;
+}
+.head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+.ant-modal-body{
+    height: 100% !important;
+}
+.ant-modal-close{
+    top: 7px !important;
+    right: 5px !important;
+}
+.picker{
+    display: inline;
+}
